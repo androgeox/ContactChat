@@ -1,4 +1,4 @@
-package Service;
+package com.georgiy.contactchat.service;
 
 import org.springframework.stereotype.Service;
 

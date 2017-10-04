@@ -1,4 +1,4 @@
-package Entity;
+package com.georgiy.contactchat.entity;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -12,7 +12,7 @@ import java.io.Serializable;
 @Entity
 @Getter
 @Setter
-public class Room implements Serializable {
+public class Room{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;

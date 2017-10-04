@@ -1,6 +1,6 @@
-package Controller;
+package com.georgiy.contactchat.controller;
 
-import Service.RoomService;
+import com.georgiy.contactchat.service.RoomService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
